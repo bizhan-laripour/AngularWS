@@ -1,5 +1,6 @@
 package com.dpco.controller;
 
+import com.dpco.aop.LoggAnnotation;
 import com.dpco.dto.LoginDto;
 import com.dpco.entity.Member;
 import com.dpco.exception.CustomException;
@@ -20,7 +21,7 @@ public class LoginController {
     @Autowired
     private MemberService memberService;
 
-
+    @LoggAnnotation
     @RequestMapping(path = "/login" , method = RequestMethod.POST)
     public String generate(@RequestBody LoginDto loginDto) throws Exception {
 
@@ -35,6 +36,7 @@ public class LoginController {
 
 
     @RequestMapping(path = "/ex" , method = RequestMethod.GET)
+    @LoggAnnotation
     public String sayMe(){
         throw new CustomException("hello this is exception" , HttpStatus.MULTI_STATUS);
     }

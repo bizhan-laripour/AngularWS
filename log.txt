@@ -1,0 +1,18 @@
+
+
+-----------------------------------------this is the logger of project , you can see the methods that calls and information of them  in here------------------------------------
+
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.dto.LoginDto@5a956270,the milli seconds that left : 2013
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.dto.LoginDto@217d43f,the milli seconds that left : 40278
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.dto.LoginDto@6306868e,
+the milli seconds that left : 2103
