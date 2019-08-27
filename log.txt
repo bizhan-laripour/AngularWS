@@ -6,13 +6,10 @@
 ---------------------------------------generate-------------------------------------------
 path is : /login
 the method of request is :POST
-the arguments of this method is : om.dpco.dto.LoginDto@5a956270,the milli seconds that left : 2013
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.dto.LoginDto@217d43f,the milli seconds that left : 40278
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.dto.LoginDto@6306868e,
-the milli seconds that left : 2103
+the arguments of this method is : om.dpco.dto.LoginDto@276cdfa4,
+the milli seconds that left : 2025
+---------------------------------------hello-------------------------------------------
+path is : /hello
+the method of request is :GET
+the arguments of this method is : 
+the milli seconds that left : 5118

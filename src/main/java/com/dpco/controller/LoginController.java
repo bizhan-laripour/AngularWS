@@ -21,7 +21,7 @@ public class LoginController {
     @Autowired
     private MemberService memberService;
 
-    @LoggAnnotation
+//    @LoggAnnotation
     @RequestMapping(path = "/login" , method = RequestMethod.POST)
     public String generate(@RequestBody LoginDto loginDto) throws Exception {
 
