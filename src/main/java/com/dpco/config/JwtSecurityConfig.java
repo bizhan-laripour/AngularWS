@@ -3,6 +3,7 @@ package com.dpco.config;
 import com.dpco.security.JwtAuthenticationEntryPoint;
 import com.dpco.security.JwtAuthenticationProvider;
 import com.dpco.security.JwtAuthenticationTokenFilter;
+import com.dpco.security.JwtSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -37,7 +38,7 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
     public JwtAuthenticationTokenFilter authenticationTokenFilter() {
         JwtAuthenticationTokenFilter filter = new JwtAuthenticationTokenFilter();
         filter.setAuthenticationManager(authenticationManager());
-//        filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
+        filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
         return filter;
     }
 

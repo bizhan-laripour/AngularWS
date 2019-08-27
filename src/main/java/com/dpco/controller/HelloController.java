@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/member")
 public class HelloController {
 
-    @RequestMapping(path = "/hello" , method = RequestMethod.GET)
+    @RequestMapping(path = "/hello" , method = RequestMethod.POST)
     public String hello() {
         try {
             return "Hello World";
