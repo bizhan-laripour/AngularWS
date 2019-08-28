@@ -12,7 +12,7 @@ public class Logger4j {
 
     private static final Logger logger = LogManager.getLogger(LoginController.class);
 
-    public Logger getLogger(CustomException ex){
+    public Logger getLogger(Throwable ex){
         logger.error("--------------------------------------------------------------------------------------------");
         logger.error("the exception is :"+ex.getMessage());
         logger.error("the class is :"+ex.getStackTrace()[0].getClassName());

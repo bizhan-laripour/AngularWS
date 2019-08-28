@@ -17,3 +17,51 @@ the class that exception happened: com.dpco.business.service.MemberService
 the method that exception happened: findByUsernameAndPassword
 the line that exception happend: 24
 -----------------------------------------------------------------------------------------
+Wed Aug 28 04:56:36 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 35
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Wed Aug 28 04:56:45 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Wed Aug 28 05:23:05 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 35
+-----------------------------------------------------------------------------------------Wed Aug 28 05:23:05 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Wed Aug 28 05:35:55 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Wed Aug 28 05:35:55 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Wed Aug 28 05:38:10 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Wed Aug 28 05:38:10 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------

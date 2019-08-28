@@ -1,9 +1,11 @@
 package com.dpco.aop;
 
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 
@@ -16,6 +18,9 @@ import java.util.Date;
 @Configuration
 public class LoggerThrowingAspect {
 
+    @Autowired
+    private Logger4j logger4j;
+
 
     @AfterThrowing(pointcut = "execution(* com.dpco.business.service.*.*(..))" , throwing = "exeption")
     public void afterTrowing(JoinPoint joinPoint , Throwable exeption) throws IOException {
@@ -27,18 +32,19 @@ public class LoggerThrowingAspect {
                 fileWriter.close();
             }
             FileWriter fileWriter = new FileWriter(file, true);
-            fileWriter.write("\n\n-----------------------------------------------------------------------------------\n\n");
+//            fileWriter.write("\n\n-----------------------------------------------------------------------------------\n\n");
             Date now = new Date();
             fileWriter.write(now.toString() + "\n");
             fileWriter.write("exception message :" + exeption.getMessage() + "\n");
-//        fileWriter.write("status code is :"+exeption.getStatus().value()+"\n");
             StackTraceElement stackTraceElement = exeption.getStackTrace()[0];
             fileWriter.write("the class that exception happened: " + stackTraceElement.getClassName() + "\n");
             fileWriter.write("the method that exception happened: " + stackTraceElement.getMethodName() + "\n");
             fileWriter.write("the line that exception happend: " + stackTraceElement.getLineNumber() + "\n");
             fileWriter.write("-----------------------------------------------------------------------------------------\n");
             fileWriter.close();
-        }catch (CustomException ex){
+            logger4j.getLogger(exeption);
+        }catch (Exception ex){
+            logger4j.getLogger(ex);
             throw new CustomException("some error in aop", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -64,7 +70,9 @@ public class LoggerThrowingAspect {
             fileWriter.write("the line that exception happend: " + stackTraceElement.getLineNumber() + "\n");
             fileWriter.write("-----------------------------------------------------------------------------------------");
             fileWriter.close();
-        }catch (CustomException ex){
+            logger4j.getLogger(exeption);
+        }catch (Exception ex){
+            logger4j.getLogger(ex);
             throw new CustomException("some error in aop", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

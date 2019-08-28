@@ -2,6 +2,7 @@ package com.dpco.business.security;
 
 import com.dpco.business.dto.LoginDto;
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -19,6 +20,9 @@ public class JwtAuthenticationProvider extends AbstractUserDetailsAuthentication
 
     @Autowired
     private JwtValidator validator;
+
+    @Autowired
+    private Logger4j logger4j;
 
     @Override
     protected void additionalAuthenticationChecks(UserDetails userDetails, UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken) throws AuthenticationException {
@@ -40,6 +44,7 @@ public class JwtAuthenticationProvider extends AbstractUserDetailsAuthentication
                     token,
                     grantedAuthorities);
         }catch (Exception ex){
+            logger4j.getLogger(ex);
             throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -49,6 +54,7 @@ public class JwtAuthenticationProvider extends AbstractUserDetailsAuthentication
         try {
             return (JwtAuthenticationToken.class.isAssignableFrom(aClass));
         }catch (Exception ex){
+            logger4j.getLogger(ex);
             throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

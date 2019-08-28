@@ -2,11 +2,13 @@ package com.dpco.business.dao;
 
 
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.query.Query;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
@@ -15,6 +17,7 @@ import java.util.List;
 
 @Component
 public class GenericDao<E, T> {
+
 
     public E save(E e) {
         try {

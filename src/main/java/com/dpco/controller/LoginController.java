@@ -17,15 +17,10 @@ public class LoginController {
 
     @Autowired
     private JwtGenerator jwtGenerator;
-
     @Autowired
     private MemberService memberService;
-
     @Autowired
     private Exp exp;
-
-    @Autowired
-    private Logger4j logger4j;
 
 
 
@@ -51,7 +46,6 @@ try {
 
           return  exp.go();
         }catch (CustomException ex){
-            logger4j.getLogger(ex);
             throw new CustomException(ex.getMessage() , ex.getStatus());
 
         }

@@ -1,6 +1,8 @@
 package com.dpco.business.security;
 
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
@@ -13,6 +15,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class JwtAuthenticationTokenFilter extends AbstractAuthenticationProcessingFilter {
+
+    @Autowired
+    private Logger4j logger4j;
 
     public JwtAuthenticationTokenFilter() {
         super("/member/**");
@@ -29,6 +34,7 @@ public class JwtAuthenticationTokenFilter extends AbstractAuthenticationProcessi
             JwtAuthenticationToken token = new JwtAuthenticationToken(authenticationToken);
             return getAuthenticationManager().authenticate(token);
         }catch (Exception ex){
+            logger4j.getLogger(ex);
             throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -40,6 +46,7 @@ public class JwtAuthenticationTokenFilter extends AbstractAuthenticationProcessi
             super.successfulAuthentication(request, response, chain, authResult);
             chain.doFilter(request, response);
         }catch (Exception ex){
+
             throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

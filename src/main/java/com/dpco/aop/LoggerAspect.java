@@ -1,10 +1,12 @@
 package com.dpco.aop;
 
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,8 @@ import java.util.Date;
 @Configuration
 public class LoggerAspect {
 
+    @Autowired
+    private Logger4j logger4j;
 
     @Pointcut("execution(* com.dpco.controller.*.*(..)) && @annotation(requestMapping)")
     public void controller(RequestMapping requestMapping){
@@ -54,6 +58,7 @@ public class LoggerAspect {
                 fileWriter.write("the milli seconds that left : " + String.valueOf(second.getTime() - first.getTime()));
                 fileWriter.close();
             } catch (IOException e) {
+                logger4j.getLogger(e);
                 throw new CustomException("hello", HttpStatus.MULTI_STATUS);
             }
             return object;
