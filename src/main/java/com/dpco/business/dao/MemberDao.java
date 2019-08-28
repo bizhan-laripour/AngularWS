@@ -31,7 +31,7 @@ public class MemberDao extends GenericDao<Member , Integer> {
                 throw new CustomException("there is no member with this identities" , HttpStatus.ACCEPTED);
             }
             return mem;
-        }catch (CustomException ex){
+        }catch (Exception ex){
             throw new CustomException("there is some problem in finding member by username and password", HttpStatus.INTERNAL_SERVER_ERROR);
 
         }

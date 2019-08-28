@@ -19,7 +19,7 @@ public class Exp {
     @LoggAnnotation
     public String go(){
         try{
-          return   expDao.hey();
+          return  expDao.hey();
         }catch (CustomException ex){
             logger4j.getLogger(ex);
             throw new CustomException(ex.getMessage() , ex.getStatus());

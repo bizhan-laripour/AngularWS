@@ -36,7 +36,7 @@ public class LoggerThrowingAspect {
             fileWriter.write("the class that exception happened: " + stackTraceElement.getClassName() + "\n");
             fileWriter.write("the method that exception happened: " + stackTraceElement.getMethodName() + "\n");
             fileWriter.write("the line that exception happend: " + stackTraceElement.getLineNumber() + "\n");
-            fileWriter.write("-----------------------------------------------------------------------------------------");
+            fileWriter.write("-----------------------------------------------------------------------------------------\n");
             fileWriter.close();
         }catch (CustomException ex){
             throw new CustomException("some error in aop", HttpStatus.INTERNAL_SERVER_ERROR);
@@ -54,7 +54,7 @@ public class LoggerThrowingAspect {
                 fileWriter.close();
             }
             FileWriter fileWriter = new FileWriter(file, true);
-            fileWriter.write("\n\n-----------------------------------------------------------------------------------\n\n");
+//            fileWriter.write("\n\n-----------------------------------------------------------------------------------\n\n");
             Date now = new Date();
             fileWriter.write(now.toString() + "\n");
             fileWriter.write(" exception message :" + exeption.getMessage() + "\n");

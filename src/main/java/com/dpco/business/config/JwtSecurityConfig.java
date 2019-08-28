@@ -1,5 +1,6 @@
 package com.dpco.business.config;
 
+import com.dpco.business.exception.CustomException;
 import com.dpco.business.security.JwtAuthenticationEntryPoint;
 import com.dpco.business.security.JwtAuthenticationProvider;
 import com.dpco.business.security.JwtAuthenticationTokenFilter;
@@ -31,30 +32,41 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     public AuthenticationManager authenticationManager() {
-        return new ProviderManager(Collections.singletonList(authenticationProvider));
+        try {
+            return new ProviderManager(Collections.singletonList(authenticationProvider));
+        }catch (CustomException ex){
+            throw new CustomException(ex.getMessage() , ex.getStatus());
+        }
     }
 
     @Bean
     public JwtAuthenticationTokenFilter authenticationTokenFilter() {
-        JwtAuthenticationTokenFilter filter = new JwtAuthenticationTokenFilter();
-        filter.setAuthenticationManager(authenticationManager());
-        filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
-        return filter;
+        try {
+            JwtAuthenticationTokenFilter filter = new JwtAuthenticationTokenFilter();
+            filter.setAuthenticationManager(authenticationManager());
+            filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
+            return filter;
+        }catch (CustomException ex){
+            throw new CustomException(ex.getMessage() , ex.getStatus());
+        }
     }
 
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        try {
+            http.csrf().disable()
+                    .authorizeRequests().antMatchers("**/member/**").authenticated()
+                    .and()
+                    .exceptionHandling().authenticationEntryPoint(entryPoint)
+                    .and()
+                    .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
-        http.csrf().disable()
-                .authorizeRequests().antMatchers("**/member/**").authenticated()
-                .and()
-                .exceptionHandling().authenticationEntryPoint(entryPoint)
-                .and()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-
-        http.addFilterBefore(authenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
-        http.headers().cacheControl();
+            http.addFilterBefore(authenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+            http.headers().cacheControl();
+        }catch (CustomException ex){
+            throw new CustomException(ex.getMessage() , ex.getStatus());
+        }
 
     }
 }

@@ -42,7 +42,7 @@ public class JwtGenerator {
             } else {
                 throw new CustomException("there is no member with this username and password so it is forbidden", HttpStatus.FORBIDDEN);
             }
-        }catch (CustomException ex){
+        }catch (Exception ex){
             throw new CustomException("some exception in building the jwt token" , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }

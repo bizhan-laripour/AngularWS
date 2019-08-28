@@ -31,8 +31,11 @@ public class LoginController {
 
     @RequestMapping(path = "/login" , method = RequestMethod.POST)
     public String generate(@RequestBody LoginDto loginDto) throws Exception {
-
-        return jwtGenerator.generate(loginDto);
+try {
+    return jwtGenerator.generate(loginDto);
+}catch (CustomException ex){
+    throw new CustomException(ex.getMessage() , ex.getStatus());
+}
 
     }
 

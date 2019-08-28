@@ -26,7 +26,7 @@ public class GenericDao<E, T> {
             session.close();
             sessionFactory.close();
             return e;
-        }catch (CustomException ex){
+        }catch (Exception ex){
             throw new CustomException("some exception in saving the member", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -40,7 +40,7 @@ public class GenericDao<E, T> {
             transaction.commit();
             session.close();
             sessionFactory.close();
-        }catch(CustomException ex){
+        }catch(Exception ex){
             throw new CustomException("some exception in deleting the member", HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -55,7 +55,7 @@ public class GenericDao<E, T> {
             session.close();
             sessionFactory.close();
             return e;
-        }catch(CustomException ex){
+        }catch(Exception ex){
             throw new CustomException("some exception in updating the member", HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
@@ -71,7 +71,7 @@ public class GenericDao<E, T> {
             session.close();
             sessionFactory.close();
             return list;
-        }catch (CustomException ex){
+        }catch (Exception ex){
             throw new CustomException("some exception in fetching all the member" , HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
@@ -89,7 +89,7 @@ public class GenericDao<E, T> {
             session.close();
             sessionFactory.close();
             return list.get(0);
-        }catch (CustomException ex){
+        }catch (Exception ex){
             throw new CustomException("some exception in finding the member", HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
