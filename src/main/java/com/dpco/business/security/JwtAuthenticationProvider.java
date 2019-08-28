@@ -1,6 +1,6 @@
-package com.dpco.security;
+package com.dpco.business.security;
 
-import com.dpco.dto.LoginDto;
+import com.dpco.business.dto.LoginDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider;

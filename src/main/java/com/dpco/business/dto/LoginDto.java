@@ -1,4 +1,4 @@
-package com.dpco.dto;
+package com.dpco.business.dto;
 
 public class LoginDto {
 

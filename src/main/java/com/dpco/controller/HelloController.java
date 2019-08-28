@@ -1,8 +1,7 @@
 package com.dpco.controller;
 
 
-import com.dpco.exception.CustomException;
-import org.springframework.web.bind.annotation.GetMapping;
+import com.dpco.business.exception.CustomException;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

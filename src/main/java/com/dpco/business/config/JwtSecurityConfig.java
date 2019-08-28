@@ -1,9 +1,9 @@
-package com.dpco.config;
+package com.dpco.business.config;
 
-import com.dpco.security.JwtAuthenticationEntryPoint;
-import com.dpco.security.JwtAuthenticationProvider;
-import com.dpco.security.JwtAuthenticationTokenFilter;
-import com.dpco.security.JwtSuccessHandler;
+import com.dpco.business.security.JwtAuthenticationEntryPoint;
+import com.dpco.business.security.JwtAuthenticationProvider;
+import com.dpco.business.security.JwtAuthenticationTokenFilter;
+import com.dpco.business.security.JwtSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

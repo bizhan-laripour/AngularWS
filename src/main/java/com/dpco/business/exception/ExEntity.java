@@ -1,4 +1,4 @@
-package com.dpco.exception;
+package com.dpco.business.exception;
 
 
 public class ExEntity {

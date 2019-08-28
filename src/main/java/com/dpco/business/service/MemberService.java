@@ -1,8 +1,8 @@
-package com.dpco.service;
+package com.dpco.business.service;
 
-import com.dpco.dao.MemberDao;
-import com.dpco.entity.Member;
-import com.dpco.exception.CustomException;
+import com.dpco.business.dao.MemberDao;
+import com.dpco.business.entity.Member;
+import com.dpco.business.exception.CustomException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

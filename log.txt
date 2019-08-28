@@ -3,13 +3,41 @@
 -----------------------------------------this is the logger of project , you can see the methods that calls and information of them  in here------------------------------------
 
 
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.dto.LoginDto@276cdfa4,
-the milli seconds that left : 2025
----------------------------------------hello-------------------------------------------
-path is : /hello
-the method of request is :GET
-the arguments of this method is : 
-the milli seconds that left : 5118
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:16:52 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+the trace is :
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:16:52 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+the trace is :
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:19:23 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:19:23 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------

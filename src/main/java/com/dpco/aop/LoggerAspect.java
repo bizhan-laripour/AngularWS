@@ -1,9 +1,7 @@
 package com.dpco.aop;
 
-import com.dpco.exception.CustomException;
-import org.aspectj.lang.JoinPoint;
+import com.dpco.business.exception.CustomException;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
@@ -21,18 +19,14 @@ import java.util.Date;
 public class LoggerAspect {
 
 
-    @Pointcut("execution(* *(..)) && @annotation(requestMapping)")
+    @Pointcut("execution(* com.dpco.controller.*.*(..)) && @annotation(requestMapping)")
     public void controller(RequestMapping requestMapping){
     }
 
-    @Pointcut("execution(* *(..))")
-    public void exception(){
-
-    }
 
     @Around("controller(requestMapping)")
     public Object around(ProceedingJoinPoint joinPoint , RequestMapping requestMapping) throws Throwable {
-        try {
+
             Object[] obj = joinPoint.getArgs();
             File file = new File("log.txt");
             Object object = null;
@@ -63,29 +57,9 @@ public class LoggerAspect {
                 throw new CustomException("hello", HttpStatus.MULTI_STATUS);
             }
             return object;
-        }catch (CustomException ex){
-            throw new CustomException("error in writing the log" , HttpStatus.INTERNAL_SERVER_ERROR);
-        }
+
     }
 
-//
-//    @AfterThrowing(pointcut = "exception()" , throwing = "exeption")
-//    public void afterTrowing(JoinPoint joinPoint , CustomException exeption) throws IOException {
-//        File file = new File("log.txt");
-//        if(file.createNewFile()){
-//            FileWriter fileWriter = new FileWriter(file);
-//            fileWriter.write("\n\n-----------------------------------------this is the logger of project , you can see the methods that calls and information of them  in here------------------------------------\n\n");
-//            fileWriter.close();
-//        }
-//        FileWriter fileWriter = new FileWriter(file , true);
-//        fileWriter.write("message :"+exeption.getMessage()+"\n");
-//        fileWriter.write("status code is :"+exeption.getStatus().value()+"\n");
-//        StackTraceElement stackTraceElement = exeption.getStackTrace()[0];
-//        fileWriter.write("the class that exception happened "+stackTraceElement.getClassName()+"\n");
-//        fileWriter.write("the method that exception happened "+stackTraceElement.getMethodName()+"\n");
-//        fileWriter.write("the line that exception happend "+stackTraceElement.getLineNumber()+"\n");
-//        fileWriter.write("the cause of exception is "+exeption.getCause().toString());
-//        fileWriter.write("-----------------------------------------------------------------------------------------");
-//        fileWriter.close();
-//    }
+
+
 }

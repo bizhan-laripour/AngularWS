@@ -1,4 +1,4 @@
-package com.dpco.exception;
+package com.dpco.business.exception;
 
 
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
-package com.dpco.dao;
+package com.dpco.business.dao;
 
 
-import com.dpco.exception.CustomException;
+import com.dpco.business.exception.CustomException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

@@ -1,13 +1,12 @@
 package com.dpco.controller;
 
-import com.dpco.aop.LoggAnnotation;
-import com.dpco.dto.LoginDto;
-import com.dpco.entity.Member;
-import com.dpco.exception.CustomException;
-import com.dpco.security.JwtGenerator;
-import com.dpco.service.MemberService;
+import com.dpco.business.dto.LoginDto;
+import com.dpco.business.entity.Member;
+import com.dpco.business.exception.CustomException;
+import com.dpco.business.security.JwtGenerator;
+import com.dpco.business.service.Exp;
+import com.dpco.business.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -20,6 +19,9 @@ public class LoginController {
 
     @Autowired
     private MemberService memberService;
+
+    @Autowired
+    private Exp exp;
 
 //    @LoggAnnotation
     @RequestMapping(path = "/login" , method = RequestMethod.POST)
@@ -36,8 +38,11 @@ public class LoginController {
 
 
     @RequestMapping(path = "/ex" , method = RequestMethod.GET)
-    @LoggAnnotation
     public String sayMe(){
-        throw new CustomException("hello this is exception" , HttpStatus.MULTI_STATUS);
+        try {
+          return   exp.go();
+        }catch (CustomException ex){
+            throw new CustomException(ex.getMessage() , ex.getStatus());
+        }
     }
 }

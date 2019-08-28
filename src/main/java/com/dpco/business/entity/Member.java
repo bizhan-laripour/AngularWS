@@ -1,4 +1,4 @@
-package com.dpco.entity;
+package com.dpco.business.entity;
 
 import javax.persistence.*;
 

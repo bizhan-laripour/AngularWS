@@ -14,7 +14,7 @@
         <property name="connection.password"></property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="com.dpco.entity.Member"/>
+        <mapping class="com.dpco.business.entity.Member"/>
 
     </session-factory>
 </hibernate-configuration>

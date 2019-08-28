@@ -1,7 +1,7 @@
-package com.dpco.service;
+package com.dpco.business.service;
 
-import com.dpco.dao.GenericDao;
-import com.dpco.exception.CustomException;
+import com.dpco.business.dao.GenericDao;
+import com.dpco.business.exception.CustomException;
 
 import java.util.List;
 

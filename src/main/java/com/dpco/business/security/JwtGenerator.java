@@ -1,9 +1,9 @@
-package com.dpco.security;
+package com.dpco.business.security;
 
-import com.dpco.dto.LoginDto;
-import com.dpco.entity.Member;
-import com.dpco.exception.CustomException;
-import com.dpco.service.MemberService;
+import com.dpco.business.dto.LoginDto;
+import com.dpco.business.entity.Member;
+import com.dpco.business.exception.CustomException;
+import com.dpco.business.service.MemberService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
