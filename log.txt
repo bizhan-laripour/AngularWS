@@ -41,3 +41,165 @@ the class that exception happened: com.dpco.business.service.Exp
 the method that exception happened: go
 the line that exception happend: 20
 -----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:31:09 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:31:09 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:32:08 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:32:08 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:37:22 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:37:22 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:39:20 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:39:20 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:40:32 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:40:32 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:49:01 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:49:01 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:57:37 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:57:37 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:58:20 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Tue Aug 27 23:58:20 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 20
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Wed Aug 28 00:01:08 PDT 2019
+ exception message :this is dao exception
+the class that exception happened: com.dpco.business.dao.ExpDao
+the method that exception happened: hey
+the line that exception happend: 11
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+
+Wed Aug 28 00:01:08 PDT 2019
+exception message :this is dao exception
+the class that exception happened: com.dpco.business.service.Exp
+the method that exception happened: go
+the line that exception happend: 25
+-----------------------------------------------------------------------------------------

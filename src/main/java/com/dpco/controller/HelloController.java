@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/member")
 public class HelloController {
 
+
+
     @RequestMapping(path = "/hello" , method = RequestMethod.GET)
     public String hello() {
         try {
