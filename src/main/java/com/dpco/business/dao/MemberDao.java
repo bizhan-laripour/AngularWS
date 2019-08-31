@@ -31,11 +31,13 @@ public class MemberDao extends GenericDao<Member , Integer> {
             List<Member> members = query.list();
             transaction.commit();
             session.close();
-            Member mem =  members.get(0);
-            if(mem == null){
-                throw new CustomException("there is no member with this identities" , HttpStatus.ACCEPTED);
+            Member mem = members.get(0);
+            if (mem == null) {
+                throw new CustomException("there is no member with this identities", HttpStatus.ACCEPTED);
             }
             return mem;
+        }catch (CustomException ex){
+            throw ex;
         }catch (Exception ex){
             throw new CustomException("there is some problem in finding member by username and password", HttpStatus.INTERNAL_SERVER_ERROR);
 

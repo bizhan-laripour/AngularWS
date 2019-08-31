@@ -76,7 +76,6 @@ public class GenericDao<E, T> {
             return list;
         }catch (Exception ex){
             throw new CustomException("some exception in fetching all the member" , HttpStatus.INTERNAL_SERVER_ERROR);
-
         }
     }
 

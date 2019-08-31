@@ -65,3 +65,463 @@ the class that exception happened: com.dpco.business.service.MemberService
 the method that exception happened: findByUsernameAndPassword
 the line that exception happend: 24
 -----------------------------------------------------------------------------------------
+Sat Aug 31 00:06:41 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 00:06:41 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@30384d56,
+the milli seconds that left : 12593
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7940fa28,
+the milli seconds that left : 156
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@63e847b4,
+the milli seconds that left : 125
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1da23ffb,
+the milli seconds that left : 172
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@13f06011,
+the milli seconds that left : 125
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@12a660d1,
+the milli seconds that left : 109
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3f685d5d,
+the milli seconds that left : 109
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1c69f5d4,
+the milli seconds that left : 94
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7228bb01,
+the milli seconds that left : 3937
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@25e761d0,
+the milli seconds that left : 125
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@18801169,
+the milli seconds that left : 125Sat Aug 31 01:21:54 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:21:54 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:21:58 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:21:58 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:22:10 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:22:10 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:22:22 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:22:22 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3baee89d,
+the milli seconds that left : 109Sat Aug 31 01:27:45 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:45 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:46 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:46 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:46 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:47 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:47 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:47 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:47 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 01:27:54 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 01:27:54 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@504f0d32,
+the milli seconds that left : 4890
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1fb74af9,
+the milli seconds that left : 6594
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@393d7ce3,
+the milli seconds that left : 3437
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@77a38d05,
+the milli seconds that left : 4313
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1ce2ddf6,
+the milli seconds that left : 5656Sat Aug 31 02:57:47 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 02:57:47 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@74e69449,
+the milli seconds that left : 5688
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2e84c3d2,
+the milli seconds that left : 4985
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4050114e,
+the milli seconds that left : 3938
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@57087141,
+the milli seconds that left : 3203
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3c9bcc0c,
+the milli seconds that left : 3766
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@e7f059c,
+the milli seconds that left : 3812
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@f63d0f2,
+the milli seconds that left : 54935
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@436b668d,
+the milli seconds that left : 11937
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4d25f80c,
+the milli seconds that left : 161838
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4a3638a0,
+the milli seconds that left : 45076
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@528619a6,
+the milli seconds that left : 4421
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2b38543e,
+the milli seconds that left : 125
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@64b5114,
+the milli seconds that left : 297
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@65470a0c,
+the milli seconds that left : 156
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@d49422,
+the milli seconds that left : 156
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4e3fef1b,
+the milli seconds that left : 204
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@aaeca32,
+the milli seconds that left : 141
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@106a5690,
+the milli seconds that left : 5500
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@26482d64,
+the milli seconds that left : 4050
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7632c129,
+the milli seconds that left : 37941
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2c4b7b77,
+the milli seconds that left : 1813
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6c5c3012,
+the milli seconds that left : 797
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1243069e,
+the milli seconds that left : 141
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@48f80cea,
+the milli seconds that left : 204
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3b44055d,
+the milli seconds that left : 219
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@86e7022,
+the milli seconds that left : 157
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5de91a60,
+the milli seconds that left : 187
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6b8494c7,
+the milli seconds that left : 141
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@745eddaa,
+the milli seconds that left : 141
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1d30065,
+the milli seconds that left : 203Sat Aug 31 06:34:46 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 06:34:46 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 06:34:49 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 40
+-----------------------------------------------------------------------------------------Sat Aug 31 06:34:49 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 24
+-----------------------------------------------------------------------------------------
+Sat Aug 31 07:00:44 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 42
+-----------------------------------------------------------------------------------------Sat Aug 31 07:01:08 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 23
+-----------------------------------------------------------------------------------------
+Sat Aug 31 07:02:37 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 42
+-----------------------------------------------------------------------------------------Sat Aug 31 07:02:37 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 22
+-----------------------------------------------------------------------------------------
+Sat Aug 31 07:03:23 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 42
+-----------------------------------------------------------------------------------------Sat Aug 31 07:04:19 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 22
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2cd75d49,
+the milli seconds that left : 9788Sat Aug 31 07:17:18 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 42
+-----------------------------------------------------------------------------------------Sat Aug 31 07:17:18 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 22
+-----------------------------------------------------------------------------------------
+Sat Aug 31 07:17:32 PDT 2019
+ exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.dao.MemberDao
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 42
+-----------------------------------------------------------------------------------------Sat Aug 31 07:17:32 PDT 2019
+exception message :there is some problem in finding member by username and password
+the class that exception happened: com.dpco.business.service.MemberService
+the method that exception happened: findByUsernameAndPassword
+the line that exception happend: 22
+-----------------------------------------------------------------------------------------

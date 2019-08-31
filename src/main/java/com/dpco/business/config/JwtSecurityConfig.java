@@ -33,8 +33,8 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
     public AuthenticationManager authenticationManager() {
         try {
             return new ProviderManager(Collections.singletonList(authenticationProvider));
-        }catch (CustomException ex){
-            throw new CustomException(ex.getMessage() , ex.getStatus());
+        } catch (CustomException ex) {
+            throw new CustomException(ex.getMessage(), ex.getStatus());
         }
     }
 
@@ -45,8 +45,8 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
             filter.setAuthenticationManager(authenticationManager());
             filter.setAuthenticationSuccessHandler(new JwtSuccessHandler());
             return filter;
-        }catch (CustomException ex){
-            throw new CustomException(ex.getMessage() , ex.getStatus());
+        } catch (CustomException ex) {
+            throw new CustomException(ex.getMessage(), ex.getStatus());
         }
     }
 
@@ -56,6 +56,7 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
         try {
             http.csrf().disable()
                     .authorizeRequests().antMatchers("**/member/**").authenticated()
+                    .and().authorizeRequests().antMatchers("/v2/api-docs").permitAll()
                     .and()
                     .exceptionHandling().authenticationEntryPoint(entryPoint)
                     .and()
@@ -63,8 +64,8 @@ public class JwtSecurityConfig extends WebSecurityConfigurerAdapter {
 
             http.addFilterBefore(authenticationTokenFilter(), UsernamePasswordAuthenticationFilter.class);
             http.headers().cacheControl();
-        }catch (CustomException ex){
-            throw new CustomException(ex.getMessage() , ex.getStatus());
+        } catch (CustomException ex) {
+            throw new CustomException(ex.getMessage(), ex.getStatus());
         }
 
     }

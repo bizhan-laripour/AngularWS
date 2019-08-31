@@ -8,7 +8,7 @@ import java.util.List;
 
 public class GenericService<E , T> {
 
-    private GenericDao<E , T> genericDao;
+    protected GenericDao<E , T> genericDao;
 
     public GenericService(GenericDao<E,T> genericDao){
         this.genericDao = genericDao;
