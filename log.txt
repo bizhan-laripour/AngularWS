@@ -442,4 +442,715 @@ the milli seconds that left : 2456
 path is : /save
 the method of request is :POST
 the arguments of this method is : om.dpco.business.entity.Member@4a396b2,
-the milli seconds that left : 5022
+the milli seconds that left : 5022  EXCEPTION    
+
+Sun Sep 01 22:15:02 PDT 2019
+exception message :Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$37a935fd.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:36)
+ com.dpco.controller.LoginController.generate(LoginController.java:33)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$15537646.generate(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6f6fe1f2,
+the milli seconds that left : 12800
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@345e2294,
+the milli seconds that left : 6769  EXCEPTION    
+
+Sun Sep 01 22:20:50 PDT 2019
+exception message :Index: 0, Size: 0
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$37a935fd.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:36)
+ com.dpco.controller.LoginController.generate(LoginController.java:33)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$15537646.generate(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 22:21:03 PDT 2019
+exception message :Index: 0, Size: 0
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$37a935fd.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:36)
+ com.dpco.controller.LoginController.generate(LoginController.java:33)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$15537646.generate(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 22:22:41 PDT 2019
+exception message :Index: 0, Size: 0
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$37a935fd.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:36)
+ com.dpco.controller.LoginController.generate(LoginController.java:33)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$15537646.generate(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 22:23:52 PDT 2019
+exception message :Index: 0, Size: 0
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$37a935fd.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:36)
+ com.dpco.controller.LoginController.generate(LoginController.java:33)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$15537646.generate(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5a1297a2,
+the milli seconds that left : 32864
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@36e66e5a,
+the milli seconds that left : 20959
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@51564245,
+the milli seconds that left : 10782
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@134d179d,
+the milli seconds that left : 4662
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@293a7f5f,
+the milli seconds that left : 6345
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@7a11cf81,
+the milli seconds that left : 4841
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1bffc751,
+the milli seconds that left : 3511
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@47993ebb,
+the milli seconds that left : 100
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6f2fadff,
+the milli seconds that left : 280
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@285d61c9,
+the milli seconds that left : 102
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5a391ecb,
+the milli seconds that left : 89
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@57e06733,
+the milli seconds that left : 272
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@54d6c8d3,
+the milli seconds that left : 211
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6fbe2a2a,
+the milli seconds that left : 291
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6c0b44b5,
+the milli seconds that left : 348
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@831113f,
+the milli seconds that left : 283
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@49805055,
+the milli seconds that left : 263
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2382118f,
+the milli seconds that left : 216
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5a024600,
+the milli seconds that left : 233
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@175f2def,
+the milli seconds that left : 346
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2dd89b9d,
+the milli seconds that left : 304
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4ee0ac5,
+the milli seconds that left : 296
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@30c812a8,
+the milli seconds that left : 29518
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6ce8071f,
+the milli seconds that left : 6381
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@531027e1,
+the milli seconds that left : 38319
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6e3ab965,
+the milli seconds that left : 7928
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@686cdfbf,
+the milli seconds that left : 594
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2ec729dc,
+the milli seconds that left : 125
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@107aac66,
+the milli seconds that left : 3968
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7834c4d1,
+the milli seconds that left : 2860
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@48a475b2,
+the milli seconds that left : 2500
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@3eab1d5f,
+the milli seconds that left : 109
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@41f32ffc,
+the milli seconds that left : 3812
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@65e6aa2f,
+the milli seconds that left : 63
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@752571b8,
+the milli seconds that left : 0
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@7a051730,
+the milli seconds that left : 16
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@1f8c89fc,
+the milli seconds that left : 79
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@17230716,
+the milli seconds that left : 78
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@66d00973,
+the milli seconds that left : 16
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6c0c00be,
+the milli seconds that left : 78
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@a38522c,
+the milli seconds that left : 15
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@1f897fab,
+the milli seconds that left : 16
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@319c2f34,
+the milli seconds that left : 0
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@77688533,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7fbe3429,
+the milli seconds that left : 1610
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2ecf151d,
+the milli seconds that left : 125
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@300046ac,
+the milli seconds that left : 515
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2ff757e7,
+the milli seconds that left : 16
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@6fa3b662,
+the milli seconds that left : 6000
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7ccd6984,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5c014503,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@24c9c9f3,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5127b4ec,
+the milli seconds that left : 6
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@4a8ecabd,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@71b60e49,
+the milli seconds that left : 871
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@62f96750,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@d22b526,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@2446b337,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@417405eb,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@621097ea,
+the milli seconds that left : 601
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7c649654,
+the milli seconds that left : 7
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@dff1984,
+the milli seconds that left : 3
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@22514498,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3c58cd3b,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@41e32966,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@75f175f9,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@14b11479,
+the milli seconds that left : 301
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@590640b,
+the milli seconds that left : 991
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@70ddaaad,
+the milli seconds that left : 4
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6b4a9cec,
+the milli seconds that left : 332
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@7ec6ecfc,
+the milli seconds that left : 78
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3a9c8bd8,
+the milli seconds that left : 15
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@230d4a7f,
+the milli seconds that left : 7
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3cb8583d,
+the milli seconds that left : 11
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@c7e54b,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@23a2fb87,
+the milli seconds that left : 49
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@52f90a9a,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@343b7a6f,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@19953e81,
+the milli seconds that left : 4
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@20a94160,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@3534727c,
+the milli seconds that left : 0
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@5f08afb2,
+the milli seconds that left : 0
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@792d795e,
+the milli seconds that left : 5876
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@750394e3,
+the milli seconds that left : 3547
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@d1c4657,
+the milli seconds that left : 54611
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@148e9058,
+the milli seconds that left : 2500
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@3abf549e,
+the milli seconds that left : 2293
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@4179d6c3,
+the milli seconds that left : 2766
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6ba87012,
+the milli seconds that left : 2297
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@24750320,
+the milli seconds that left : 1978
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@268ff0d3,
+the milli seconds that left : 2248
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2d1194df,
+the milli seconds that left : 2167
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@29155548,
+the milli seconds that left : 1828
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@2e92ebf5,
+the milli seconds that left : 4058  EXCEPTION    
+
+Mon Sep 02 05:20:06 PDT 2019
+exception message :Unable to find com.dpco.business.entity.Member with id 3; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.dpco.business.entity.Member with id 3
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy116.save(Unknown Source)
+ com.sun.proxy.$Proxy116.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$8d3be23a.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Mon Sep 02 05:20:38 PDT 2019
+exception message :Unable to find com.dpco.business.entity.Member with id 0; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.dpco.business.entity.Member with id 0
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy116.save(Unknown Source)
+ com.sun.proxy.$Proxy116.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$8d3be23a.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@612de715,
+the milli seconds that left : 2158
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@36950634,
+the milli seconds that left : 2973  EXCEPTION    
+
+Mon Sep 02 05:23:05 PDT 2019
+exception message :Multiple representations of the same entity [com.dpco.business.entity.Member#1] are being merged. Detached: [com.dpco.business.entity.Member@74478ad5]; Detached: [com.dpco.business.entity.Member@2678170a]; nested exception is java.lang.IllegalStateException: Multiple representations of the same entity [com.dpco.business.entity.Member#1] are being merged. Detached: [com.dpco.business.entity.Member@74478ad5]; Detached: [com.dpco.business.entity.Member@2678170a]
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$9b6ad997.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Mon Sep 02 05:24:23 PDT 2019
+exception message :Multiple representations of the same entity [com.dpco.business.entity.Member#1] are being merged. Detached: [com.dpco.business.entity.Member@262e11d0]; Detached: [com.dpco.business.entity.Member@56e7ff71]; nested exception is java.lang.IllegalStateException: Multiple representations of the same entity [com.dpco.business.entity.Member#1] are being merged. Detached: [com.dpco.business.entity.Member@262e11d0]; Detached: [com.dpco.business.entity.Member@56e7ff71]
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy119.save(Unknown Source)
+ com.sun.proxy.$Proxy119.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$f45fccb.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@4c5a76cf,
+the milli seconds that left : 3688  EXCEPTION    
+
+Mon Sep 02 05:25:53 PDT 2019
+exception message :Unable to find com.dpco.business.entity.Member with id 2; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.dpco.business.entity.Member with id 2
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$e9dce995.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@5b8190e2,
+the milli seconds that left : 2147
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@74708804,
+the milli seconds that left : 2256
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@52dc85a2,
+the milli seconds that left : 2707  EXCEPTION    
+
+Mon Sep 02 05:30:00 PDT 2019
+exception message :Unable to find com.dpco.business.entity.Member with id 5; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.dpco.business.entity.Member with id 5
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$e9dce995.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6517b93a,
+the milli seconds that left : 2495  EXCEPTION    
+
+Mon Sep 02 05:34:57 PDT 2019
+exception message :Unable to find com.dpco.business.entity.Member with id 2; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.dpco.business.entity.Member with id 2
+lines that exception occurred ===>
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.sun.proxy.$Proxy118.save(Unknown Source)
+ com.dpco.business.service.GenericService.save(GenericService.java:17)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$e32f04ed.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@307727c8,
+the milli seconds that left : 3720
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@30e2fb44,
+the milli seconds that left : 2587
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@1e04184c,
+the milli seconds that left : 2875
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@33517d4f,
+the milli seconds that left : 283
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@11d67509,
+the milli seconds that left : 6247
+---------------------------------------generate-------------------------------------------
+path is : /login
+the method of request is :POST
+the arguments of this method is : om.dpco.business.dto.LoginDto@1adea86,
+the milli seconds that left : 647

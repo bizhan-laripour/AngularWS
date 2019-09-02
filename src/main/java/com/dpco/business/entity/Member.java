@@ -19,14 +19,13 @@ public class Member {
     private String username;
 
 
-//    @ManyToOne(fetch=FetchType.LAZY)
-//    @JoinColumn(name = "parent_id",insertable=false,updatable=false)
-//    private Member member;
-//
-//    @OneToMany(cascade = CascadeType.ALL)
-//    @OrderColumn
-//    @JoinColumn(name = "parent_id")
-//    private List<Member> memberList;
+    @ManyToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name = "member_id",insertable=false,updatable=false)
+    private Member member;
+
+    @OneToMany
+    @JoinColumn(name = "member_id")
+    private List<Member> memberList;
 
     public int getId() {
         return id;
@@ -72,19 +71,19 @@ public class Member {
         this.username = username;
     }
 
-//    public Member getMember() {
-//        return member;
-//    }
-//
-//    public void setMember(Member member) {
-//        this.member = member;
-//    }
-//
-//    public List<Member> getMemberList() {
-//        return memberList;
-//    }
-//
-//    public void setMemberList(List<Member> memberList) {
-//        this.memberList = memberList;
-//    }
+    public Member getMember() {
+        return member;
+    }
+
+    public void setMember(Member member) {
+        this.member = member;
+    }
+
+    public List<Member> getMemberList() {
+        return memberList;
+    }
+
+    public void setMemberList(List<Member> memberList) {
+        this.memberList = memberList;
+    }
 }

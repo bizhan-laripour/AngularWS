@@ -5,17 +5,14 @@ import com.dpco.business.entity.Member;
 import com.dpco.business.exception.CustomException;
 import com.dpco.business.exception.ResultBody;
 import com.dpco.business.security.JwtGenerator;
-import com.dpco.business.service.Exp;
-
 import com.dpco.business.service.MemberService;
-import com.dpco.logger.Logger4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin("*")
 public class LoginController {
 
 
@@ -23,14 +20,17 @@ public class LoginController {
     private JwtGenerator jwtGenerator;
     @Autowired
     private MemberService memberService;
-    @Autowired
-    private Exp exp;
+
 
 
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public ResultBody generate(@RequestBody LoginDto loginDto) throws Exception {
         try {
-            return new ResultBody(jwtGenerator.generate(loginDto), HttpStatus.OK.value());
+            String token  = jwtGenerator.generate(loginDto);
+            System.out.println( "--------------------------------------------------");
+            System.out.println(token);
+            System.out.println("----------------------------------------------------");
+            return new ResultBody(token, HttpStatus.OK.value());
         } catch (CustomException ex) {
             throw new CustomException("some thing wrong in login", ex.getStatus());
         }
@@ -46,14 +46,4 @@ public class LoginController {
         }
     }
 
-
-    @RequestMapping(path = "/ex", method = RequestMethod.GET)
-    public String sayMe() {
-        try {
-            return exp.go();
-        } catch (CustomException ex) {
-            throw new CustomException("some thing wrong in ex", ex.getStatus());
-
-        }
-    }
 }

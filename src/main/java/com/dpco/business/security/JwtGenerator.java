@@ -1,11 +1,10 @@
 package com.dpco.business.security;
 
 import com.dpco.business.dto.LoginDto;
-import com.dpco.business.entity.Member;
 import com.dpco.business.exception.CustomException;
 
-import com.dpco.business.service.MemberService;
 import com.dpco.logger.Logger4j;
+import com.dpco.business.service.MemberService;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -30,10 +29,7 @@ public class JwtGenerator {
 
     public String generate(LoginDto loginDto){
         try {
-            Member member = new Member();
-            member.setUsername(loginDto.getUsername());
-            member.setPassword(loginDto.getPassword());
-            if (memberService.findByUsernameAndPassword(member) != null) {
+            if (memberService.findByUsernameAndPassword(loginDto.getUsername() , loginDto.getPassword()) != null) {
                 Claims claims = Jwts.claims()
                         .setSubject(loginDto.getUsername());
                 claims.put("userId", String.valueOf(loginDto.getId()));
@@ -45,7 +41,8 @@ public class JwtGenerator {
                         .setExpiration(validity)
                         .compact();
             } else {
-                throw new CustomException("there is no member with this username and password so it is forbidden", HttpStatus.FORBIDDEN);
+//                throw new CustomException("there is no member with this username and password so it is forbidden", HttpStatus.FORBIDDEN);
+                return null;
             }
         }catch (Exception ex){
             logger4j.getLogger(ex);
