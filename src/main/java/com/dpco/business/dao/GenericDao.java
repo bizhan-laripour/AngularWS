@@ -13,11 +13,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 
+import java.util.Arrays;
 import java.util.List;
 
 @Component
 public class GenericDao<E, T> {
 
+    @Autowired
+    private Logger4j logger4j;
 
     public E save(E e) {
         try {
@@ -30,7 +33,7 @@ public class GenericDao<E, T> {
             sessionFactory.close();
             return e;
         }catch (Exception ex){
-            throw new CustomException("some exception in saving the member", HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -42,9 +45,10 @@ public class GenericDao<E, T> {
             session.delete(e);
             transaction.commit();
             session.close();
+
             sessionFactory.close();
         }catch(Exception ex){
-            throw new CustomException("some exception in deleting the member", HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -59,7 +63,7 @@ public class GenericDao<E, T> {
             sessionFactory.close();
             return e;
         }catch(Exception ex){
-            throw new CustomException("some exception in updating the member", HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
     }
@@ -75,7 +79,7 @@ public class GenericDao<E, T> {
             sessionFactory.close();
             return list;
         }catch (Exception ex){
-            throw new CustomException("some exception in fetching all the member" , HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
@@ -92,7 +96,7 @@ public class GenericDao<E, T> {
             sessionFactory.close();
             return list.get(0);
         }catch (Exception ex){
-            throw new CustomException("some exception in finding the member", HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
     }

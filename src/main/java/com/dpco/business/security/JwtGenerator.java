@@ -3,6 +3,7 @@ package com.dpco.business.security;
 import com.dpco.business.dto.LoginDto;
 import com.dpco.business.entity.Member;
 import com.dpco.business.exception.CustomException;
+
 import com.dpco.business.service.MemberService;
 import com.dpco.logger.Logger4j;
 import io.jsonwebtoken.Claims;
@@ -48,7 +49,7 @@ public class JwtGenerator {
             }
         }catch (Exception ex){
             logger4j.getLogger(ex);
-            throw new CustomException("some exception in building the jwt token" , HttpStatus.INTERNAL_SERVER_ERROR);
+            throw new CustomException(ex.getMessage() , HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 }

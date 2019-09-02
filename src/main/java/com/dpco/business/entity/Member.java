@@ -1,13 +1,14 @@
 package com.dpco.business.entity;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Member {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     private String name;
 
@@ -16,6 +17,16 @@ public class Member {
     private String password;
 
     private String username;
+
+
+//    @ManyToOne(fetch=FetchType.LAZY)
+//    @JoinColumn(name = "parent_id",insertable=false,updatable=false)
+//    private Member member;
+//
+//    @OneToMany(cascade = CascadeType.ALL)
+//    @OrderColumn
+//    @JoinColumn(name = "parent_id")
+//    private List<Member> memberList;
 
     public int getId() {
         return id;
@@ -60,4 +71,20 @@ public class Member {
     public void setUsername(String username) {
         this.username = username;
     }
+
+//    public Member getMember() {
+//        return member;
+//    }
+//
+//    public void setMember(Member member) {
+//        this.member = member;
+//    }
+//
+//    public List<Member> getMemberList() {
+//        return memberList;
+//    }
+//
+//    public void setMemberList(List<Member> memberList) {
+//        this.memberList = memberList;
+//    }
 }

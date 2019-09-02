@@ -7,17 +7,35 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.Marker;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @Component
 public class Logger4j {
 
     private static final Logger logger = LogManager.getLogger(LoginController.class);
 
     public Logger getLogger(Throwable ex){
+        List<String> list = exceptionParser(ex);
         logger.error("--------------------------------------------------------------------------------------------");
         logger.error("the exception is :"+ex.getMessage());
-        logger.error("the class is :"+ex.getStackTrace()[0].getClassName());
-        logger.error("the method is :"+ex.getStackTrace()[0].getMethodName());
-        logger.error("the line number is :"+ex.getStackTrace()[0].getLineNumber());
+        logger.error("lines that exception occurred : \n" );
+        for(String st : list){
+            logger.error(st);
+        }
         return logger;
+    }
+
+
+    public List<String> exceptionParser(Throwable ex){
+        List<String> list = new ArrayList<>();
+        String[] st = Arrays.toString(ex.getStackTrace()).split(",");
+        for(String obj: st){
+            if(obj.contains("com")){
+                list.add(obj);
+            }
+        }
+        return list;
     }
 }

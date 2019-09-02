@@ -12,6 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Repository
@@ -20,7 +22,7 @@ public class MemberDao extends GenericDao<Member , Integer> {
     @Autowired
     private Logger4j logger4j;
 
-    public Member findByUsernameAndPassword(Member member){
+    public Member findByUsernameAndPassword(Member member) throws CustomException {
         try {
             SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
             Session session = sessionFactory.openSession();
@@ -39,7 +41,8 @@ public class MemberDao extends GenericDao<Member , Integer> {
         }catch (CustomException ex){
             throw ex;
         }catch (Exception ex){
-            throw new CustomException("there is some problem in finding member by username and password", HttpStatus.INTERNAL_SERVER_ERROR);
+
+            throw new CustomException(ex.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
 
         }
     }

@@ -6,6 +6,7 @@ import com.dpco.business.exception.CustomException;
 import com.dpco.business.exception.ResultBody;
 import com.dpco.business.security.JwtGenerator;
 import com.dpco.business.service.Exp;
+
 import com.dpco.business.service.MemberService;
 import com.dpco.logger.Logger4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,14 +32,18 @@ public class LoginController {
         try {
             return new ResultBody(jwtGenerator.generate(loginDto), HttpStatus.OK.value());
         } catch (CustomException ex) {
-            throw new CustomException(ex.getMessage(), ex.getStatus());
+            throw new CustomException("some thing wrong in login", ex.getStatus());
         }
 
     }
 
     @RequestMapping(path = "/save", method = RequestMethod.POST)
     public Member save(@RequestBody Member member) {
-        return memberService.save(member);
+        try {
+            return memberService.save(member);
+        }catch (CustomException ex){
+            throw new CustomException("some thing wrong in saving" , ex.getStatus());
+        }
     }
 
 
@@ -47,7 +52,7 @@ public class LoginController {
         try {
             return exp.go();
         } catch (CustomException ex) {
-            throw new CustomException(ex.getMessage(), ex.getStatus());
+            throw new CustomException("some thing wrong in ex", ex.getStatus());
 
         }
     }

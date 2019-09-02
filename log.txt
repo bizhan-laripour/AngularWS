@@ -2,526 +2,444 @@
 
 -----------------------------------------this is the logger of project , you can see the methods that calls and information of them  in here------------------------------------
 
-Wed Aug 28 04:53:30 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 35
+Sun Sep 01 00:12:17 PDT 2019
+exception message :Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$8450cca2.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:35)
+ com.dpco.controller.LoginController.generate(LoginController.java:32)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$fab510c6.generate(<generated>)
+-----------------------------------------------------------------------------------------
+Sun Sep 01 00:15:16 PDT 2019
+exception message :Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$3445b93e.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:35)
+ com.dpco.controller.LoginController.generate(LoginController.java:32)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$ea7c8d74.generate(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 00:17:28 PDT 2019
+exception message :Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+lines that exception occurred ===>
+[com.dpco.business.dao.MemberDao.findByUsernameAndPassword(MemberDao.java:45)
+ com.dpco.business.dao.MemberDao$$FastClassBySpringCGLIB$$b51b7b37.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7e30ee7.findByUsernameAndPassword(<generated>)
+ com.dpco.business.service.MemberService.findByUsernameAndPassword(MemberService.java:20)
+ com.dpco.business.security.JwtGenerator.generate(JwtGenerator.java:35)
+ com.dpco.controller.LoginController.generate(LoginController.java:32)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$9640d40f.generate(<generated>)
 -----------------------------------------------------------------------------------------
 
------------------------------------------------------------------------------------
-
-Wed Aug 28 04:53:30 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Wed Aug 28 04:56:36 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 35
------------------------------------------------------------------------------------------
-
------------------------------------------------------------------------------------
-
-Wed Aug 28 04:56:45 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Wed Aug 28 05:23:05 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 35
------------------------------------------------------------------------------------------Wed Aug 28 05:23:05 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Wed Aug 28 05:35:55 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Wed Aug 28 05:35:55 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Wed Aug 28 05:38:10 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Wed Aug 28 05:38:10 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 00:06:41 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 00:06:41 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@30384d56,
-the milli seconds that left : 12593
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@7940fa28,
-the milli seconds that left : 156
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@63e847b4,
-the milli seconds that left : 125
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1da23ffb,
-the milli seconds that left : 172
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@13f06011,
-the milli seconds that left : 125
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@12a660d1,
-the milli seconds that left : 109
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@3f685d5d,
-the milli seconds that left : 109
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1c69f5d4,
-the milli seconds that left : 94
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@7228bb01,
-the milli seconds that left : 3937
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@25e761d0,
-the milli seconds that left : 125
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@18801169,
-the milli seconds that left : 125Sat Aug 31 01:21:54 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:21:54 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:21:58 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:21:58 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:22:10 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:22:10 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:22:22 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:22:22 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@3baee89d,
-the milli seconds that left : 109Sat Aug 31 01:27:45 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:45 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:46 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:46 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:46 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:46 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:47 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:47 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:47 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:47 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-Sat Aug 31 01:27:54 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 01:27:54 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@504f0d32,
-the milli seconds that left : 4890
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1fb74af9,
-the milli seconds that left : 6594
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@393d7ce3,
-the milli seconds that left : 3437
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@77a38d05,
-the milli seconds that left : 4313
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1ce2ddf6,
-the milli seconds that left : 5656Sat Aug 31 02:57:47 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 02:57:47 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
------------------------------------------------------------------------------------------
-
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@74e69449,
-the milli seconds that left : 5688
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@2e84c3d2,
-the milli seconds that left : 4985
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@4050114e,
-the milli seconds that left : 3938
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@57087141,
-the milli seconds that left : 3203
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@3c9bcc0c,
-the milli seconds that left : 3766
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@e7f059c,
-the milli seconds that left : 3812
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@f63d0f2,
-the milli seconds that left : 54935
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@436b668d,
-the milli seconds that left : 11937
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@4d25f80c,
-the milli seconds that left : 161838
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@4a3638a0,
-the milli seconds that left : 45076
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@528619a6,
-the milli seconds that left : 4421
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@2b38543e,
-the milli seconds that left : 125
 ---------------------------------------save-------------------------------------------
 path is : /save
 the method of request is :POST
-the arguments of this method is : om.dpco.business.entity.Member@64b5114,
-the milli seconds that left : 297
+the arguments of this method is : om.dpco.business.entity.Member@46a0605,
+the milli seconds that left : 20054
 ---------------------------------------save-------------------------------------------
 path is : /save
 the method of request is :POST
-the arguments of this method is : om.dpco.business.entity.Member@65470a0c,
-the milli seconds that left : 156
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@d49422,
-the milli seconds that left : 156
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@4e3fef1b,
-the milli seconds that left : 204
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@aaeca32,
-the milli seconds that left : 141
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@106a5690,
-the milli seconds that left : 5500
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@26482d64,
-the milli seconds that left : 4050
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@7632c129,
-the milli seconds that left : 37941
----------------------------------------save-------------------------------------------
-path is : /save
-the method of request is :POST
-the arguments of this method is : om.dpco.business.entity.Member@2c4b7b77,
-the milli seconds that left : 1813
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@6c5c3012,
-the milli seconds that left : 797
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1243069e,
-the milli seconds that left : 141
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@48f80cea,
-the milli seconds that left : 204
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@3b44055d,
-the milli seconds that left : 219
----------------------------------------save-------------------------------------------
-path is : /save
-the method of request is :POST
-the arguments of this method is : om.dpco.business.entity.Member@86e7022,
-the milli seconds that left : 157
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@5de91a60,
-the milli seconds that left : 187
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@6b8494c7,
-the milli seconds that left : 141
----------------------------------------save-------------------------------------------
-path is : /save
-the method of request is :POST
-the arguments of this method is : om.dpco.business.entity.Member@745eddaa,
-the milli seconds that left : 141
----------------------------------------generate-------------------------------------------
-path is : /login
-the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@1d30065,
-the milli seconds that left : 203Sat Aug 31 06:34:46 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 06:34:46 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
+the arguments of this method is : om.dpco.business.entity.Member@2cd1e93f,
+the milli seconds that left : 5577  EXCEPTION    
+
+Sun Sep 01 00:45:13 PDT 2019
+exception message :Batch update returned unexpected row count from update [0]; actual row count: 0; expected: 1
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$b9f3c598.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$3539d7bf.save(<generated>)
 -----------------------------------------------------------------------------------------
-Sat Aug 31 06:34:49 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 40
------------------------------------------------------------------------------------------Sat Aug 31 06:34:49 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 24
+  EXCEPTION    
+
+Sun Sep 01 00:48:56 PDT 2019
+exception message :Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [com.dpco.business.entity.Member#2]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$128bc480.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$1852f2e.save(<generated>)
 -----------------------------------------------------------------------------------------
-Sat Aug 31 07:00:44 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 42
------------------------------------------------------------------------------------------Sat Aug 31 07:01:08 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 23
+  EXCEPTION    
+
+Sun Sep 01 00:49:27 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$128bc480.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$1852f2e.save(<generated>)
 -----------------------------------------------------------------------------------------
-Sat Aug 31 07:02:37 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 42
------------------------------------------------------------------------------------------Sat Aug 31 07:02:37 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 22
------------------------------------------------------------------------------------------
-Sat Aug 31 07:03:23 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 42
------------------------------------------------------------------------------------------Sat Aug 31 07:04:19 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 22
+  EXCEPTION    
+
+Sun Sep 01 00:53:47 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$b7ddc24d.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$6d454593.save(<generated>)
 -----------------------------------------------------------------------------------------
 
----------------------------------------generate-------------------------------------------
-path is : /login
+---------------------------------------save-------------------------------------------
+path is : /save
 the method of request is :POST
-the arguments of this method is : om.dpco.business.dto.LoginDto@2cd75d49,
-the milli seconds that left : 9788Sat Aug 31 07:17:18 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 42
------------------------------------------------------------------------------------------Sat Aug 31 07:17:18 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 22
+the arguments of this method is : om.dpco.business.entity.Member@38c7fded,
+the milli seconds that left : 2135  EXCEPTION    
+
+Sun Sep 01 00:59:08 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$d24e0a82.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$d0bb10d5.save(<generated>)
 -----------------------------------------------------------------------------------------
-Sat Aug 31 07:17:32 PDT 2019
- exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.dao.MemberDao
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 42
------------------------------------------------------------------------------------------Sat Aug 31 07:17:32 PDT 2019
-exception message :there is some problem in finding member by username and password
-the class that exception happened: com.dpco.business.service.MemberService
-the method that exception happened: findByUsernameAndPassword
-the line that exception happend: 22
+  EXCEPTION    
+
+Sun Sep 01 01:01:37 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$733a3a3e.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$da4c1f3f.save(<generated>)
 -----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:04:25 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:36)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$e3e76e02.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$4fb47961.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:09:09 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:38)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$ad4413b2.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$3e5d4529.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:09:52 PDT 2019
+exception message :org.hibernate.exception.ConstraintViolationException: could not execute statement
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:38)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$ad4413b2.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$3e5d4529.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:10:23 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:38)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$ad4413b2.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$3e5d4529.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:11:51 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$20ed78a3.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$1de17e6a.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:13:40 PDT 2019
+exception message :Row was updated or deleted by another transaction (or unsaved-value mapping was incorrect) : [com.dpco.business.entity.Member#2]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$20ed78a3.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$1de17e6a.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:15:22 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$5fc83398.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$917ccb95.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:17:43 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$b476246f.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$8fa8db.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 01:19:04 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$b476246f.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:42)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$8fa8db.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:41:28 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$5dd40fe.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$29775276.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:43:44 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$ed1e0ac3.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$ef7925fb.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:46:09 PDT 2019
+exception message :Error accessing stax stream
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$4014bcbc.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$6e169fc2.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:48:33 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$3402051b.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$157d8ac9.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:51:11 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$f885d73a.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$a43812fb.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:51:54 PDT 2019
+exception message :A different object with the same identifier value was already associated with the session : [com.dpco.business.entity.Member#1]
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$f885d73a.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$a43812fb.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:53:13 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7eb72200.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$eafe627.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:53:27 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7eb72200.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$eafe627.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:53:45 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7eb72200.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$eafe627.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:54:11 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7eb72200.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$eafe627.save(<generated>)
+-----------------------------------------------------------------------------------------
+  EXCEPTION    
+
+Sun Sep 01 02:55:25 PDT 2019
+exception message :no transaction is in progress
+lines that exception occurred ===>
+[com.dpco.business.dao.GenericDao.save(GenericDao.java:37)
+ com.dpco.business.dao.GenericDao$$FastClassBySpringCGLIB$$50ecf97c.invoke(<generated>)
+ com.dpco.business.dao.MemberDao$$EnhancerBySpringCGLIB$$7eb72200.save(<generated>)
+ com.dpco.business.service.GenericService.save(GenericService.java:25)
+ com.dpco.controller.LoginController.save(LoginController.java:43)
+ com.dpco.controller.LoginController$$FastClassBySpringCGLIB$$98399abc.invoke(<generated>)
+ com.dpco.aop.LoggerAspect.around(LoggerAspect.java:56)
+ com.dpco.controller.LoginController$$EnhancerBySpringCGLIB$$eafe627.save(<generated>)
+-----------------------------------------------------------------------------------------
+
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@655f817d,
+the milli seconds that left : 13692
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@6cdd8fb6,
+the milli seconds that left : 2782
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@4747541d,
+the milli seconds that left : 2456
+---------------------------------------save-------------------------------------------
+path is : /save
+the method of request is :POST
+the arguments of this method is : om.dpco.business.entity.Member@4a396b2,
+the milli seconds that left : 5022

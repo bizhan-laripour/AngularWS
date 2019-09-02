@@ -2,13 +2,19 @@ package com.dpco.business.service;
 
 import com.dpco.business.dao.GenericDao;
 import com.dpco.business.exception.CustomException;
+import com.dpco.logger.Logger4j;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Arrays;
 import java.util.List;
 
 
 public class GenericService<E , T> {
 
     protected GenericDao<E , T> genericDao;
+
+    @Autowired
+    private Logger4j logger4j;
 
     public GenericService(GenericDao<E,T> genericDao){
         this.genericDao = genericDao;
