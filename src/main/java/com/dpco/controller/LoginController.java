@@ -22,28 +22,26 @@ public class LoginController {
     private MemberService memberService;
 
 
-
     @RequestMapping(path = "/login", method = RequestMethod.POST)
     public ResultBody generate(@RequestBody LoginDto loginDto) throws Exception {
         try {
-            String token  = jwtGenerator.generate(loginDto);
-            System.out.println( "--------------------------------------------------");
+            String token = jwtGenerator.generate(loginDto);
+            System.out.println("--------------------------------------------------");
             System.out.println(token);
             System.out.println("----------------------------------------------------");
             return new ResultBody(token, HttpStatus.OK.value());
         } catch (CustomException ex) {
             throw new CustomException("some thing wrong in login", ex.getStatus());
         }
-
     }
 
     @RequestMapping(path = "/save", method = RequestMethod.POST)
     public Member save(@RequestBody Member member) {
         try {
             return memberService.save(member);
-        }catch (CustomException ex){
-            throw new CustomException("some thing wrong in saving" , ex.getStatus());
+        } catch (CustomException ex) {
+            throw new CustomException("some thing wrong in saving", ex.getStatus());
         }
     }
-
 }
+

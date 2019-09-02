@@ -26,7 +26,7 @@ public class JwtAuthenticationTokenFilter extends AbstractAuthenticationProcessi
     @Override
     public Authentication attemptAuthentication(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws AuthenticationException, IOException, ServletException {
         try {
-            String content = httpServletRequest.getHeader("content-type");
+            String content = httpServletRequest.getHeader("Content-Type");
             System.out.println("--------------------------------");
             System.out.println(content);
             System.out.println("---------------------------------");
