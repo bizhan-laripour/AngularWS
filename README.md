@@ -1,3 +1,3 @@
 ### AngularWs
 
-This is a web service for my Angular projecg
+This is a web service for my Angular project
