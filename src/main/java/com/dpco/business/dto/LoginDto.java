@@ -1,5 +1,5 @@
 package com.dpco.business.dto;
-// this is loginDto
+// this is loginDto for login api
 public class LoginDto {
 
     private String username;
